@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Demo Background</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<head>
+	<body>
+		<div>
+			<div>
+				<input type="radio" name="radioBtn" value="white" id="radio_color" class="radioBtn" /><br />
+				<span>White</span>
+			</div>
+			<div>
+				<input type="radio" name="radioBtn" value="green" id="radio_color" class="radioBtn" /><br />
+				<span>Green</span>
+			</div>
+			<div>
+				<input type="radio" name="radioBtn" value="blue" id="radio_color" class="radioBtn" /><br />
+				<span>Blue</span>
+			</div>
+		</div>
+		
+		<script>
+		$(document).ready(function() {
+			$('input[type=radio][name="radioBtn"]').change(function() {
+				if($(this).val()){
+				   $("body").css("background-color", $(this).val());
+				   var name = $("#radio_color").val();
+				   //$.cookie('name',name);
+				   $.cookie('name', 'yes', { expires: 1, path: '/' });
+				}
+			});
+		});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,325 @@
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+	.section-about .about-description {
+		max-width: none;
+		width: 50%;
+		margin: 0;
+	}
+	.section-about .about-details {
+		grid-gap: 20px;
+	}
+	.gallery-details .gallery-inner {
+		width: 23%;
+	}
+}
+
+
+@media (max-width: 820px) {
+	.section-services .services-details {
+		display: flex;
+		grid-gap: 20px;
+		padding-top: 20px;
+		grid-template-columns: repeat(2, calc(50% - 15px));
+		min-height: 424px;
+		grid-gap: 30px;
+		display: grid;
+	}
+	.section-services .services-details-inner {
+		width: 100%;
+		padding: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.services-details-inner .description {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.section-capabilities .capabilities-details {
+		display: flex;
+		grid-gap: 20px;
+		padding-top: 20px;
+		grid-template-columns: repeat(2, calc(50% - 15px));
+		min-height: 424px;
+		grid-gap: 30px;
+		display: grid;
+	}
+	.section-capabilities .capabilities-details-content {
+		width: 100%;
+		padding: 0px;
+	}
+	.section-capabilities .capabilities-sub-title, .section-capabilities .capabilities-details-inner {
+		padding-left: 30px;
+	}
+	.section-capabilities .capabilities-description {
+		margin: 0 100px;
+	}
+}
+
+
+@media (min-width: 318px) and (max-width: 768px) {
+	.section-services .services-details {
+		display: flex;
+		grid-gap: 20px;
+		padding-top: 20px;
+		grid-template-columns: repeat(2, calc(50% - 15px));
+		min-height: 424px;
+		grid-gap: 30px;
+		display: grid;
+	}
+	.section-services .services-details-inner {
+		width: 100%;
+		padding: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.services-details-inner .description {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.section-capabilities .capabilities-details {
+		display: flex;
+		grid-gap: 20px;
+		padding-top: 20px;
+		grid-template-columns: repeat(2, calc(50% - 15px));
+		min-height: 424px;
+		grid-gap: 30px;
+		display: grid;
+	}
+	.section-capabilities .capabilities-details-content {
+		width: 100%;
+		padding: 0px;
+	}
+	.section-capabilities .capabilities-sub-title, .section-capabilities .capabilities-details-inner {
+		padding-left: 30px;
+	}
+	.section-capabilities .capabilities-description {
+		margin: 0 100px;
+	}
+	.section-services-details .services-details-content {
+		display: block;
+		text-align: center;
+	}
+	.section-services-details .services-details-description {
+		text-align: center;
+	}
+}
+
+
+@media all and (min-width: 767px) {
+	.menu {
+		justify-content: center;
+		margin-bottom: 0px;
+	}
+	.logo {
+		flex: 1;
+	}
+	.item.button {
+		width: auto;
+		order: 1;
+		display: block;
+	}
+	.toggle {
+		flex: 1;
+		text-align: right;
+		order: 2;
+    }
+    .menu li.button a {
+		padding: 10px 15px;
+		margin: 5px 0;
+    }
+    .button a {
+		background: #0080ff;
+		border: 1px royalblue solid;
+	}
+	.button.secondary {
+		border: 0;
+	}
+	.button.secondary a {
+		background: transparent;
+		border: 1px #0080ff solid;
+	}
+	.button a:hover {
+		text-decoration: none;
+	}
+	.button:not(.secondary) a:hover {
+		background: royalblue;
+		border-color: darkblue;
+	}
+}
+
+
+@media all and (max-width: 767px) {
+	.banner-text .banner-description {
+		line-height: 20px;
+		font-size: 15px;
+	}
+	.banner-text .banner-title {
+		font-size: 17px;
+		font-weight: 600;
+	}
+	.slider-img .banner-image {
+		height: 50%;
+	}
+	.section-about .about-details {
+		display: block;
+	}
+	.section-about .about-content, .section-about .about-description {
+		width: 100%;
+	}
+	.about-description {
+		margin-left: 0px;
+	}
+    .footer-column {
+		width: 100%;
+		margin: 0px;
+    }
+	.menu {
+		padding: 0px; margin-bottom: 0px;
+	}
+	nav {
+		padding: 0 6px;
+	}
+	.footer-details {
+		display: block;
+	}
+	.footer-details  .footer-column.about h3 {
+		border-bottom: none;
+	}
+	.footer-details .footer-column h3 {
+		border-bottom: 2px solid gray;
+		display: inline-block;
+	}
+	.section-services .services-details {
+		display: block;
+		grid-gap: 20px;
+	}
+	.section-services .services-details-inner {
+		width: 100%;
+	}
+	.section-services .services-details-inner {
+		padding: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.services-details-inner .description {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.section-blog .blog-details {
+		display: block;
+	}
+	.section-blog .blog-inner {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.section-capabilities .capabilities-description {
+		margin: 0 0px;
+	}
+	.section-capabilities .capabilities-details {
+		display: block;
+	}
+	.section-capabilities .capabilities-details-inner {
+		padding-bottom: 30px;
+	}
+	.section-services-page .section-services-details {
+		display: block;
+	}
+	.section-services-page .services-details-inner {
+		margin-bottom: 30px;
+	}
+	.section-services-details .services-details-content {
+		display: block;
+		text-align: center;
+	}
+	.section-services-page .services-details-description {
+		text-align: center;
+		line-height: 25px;
+	}
+	
+	.section-blog-page .blog-page-details {
+		display: block;
+	}
+	.section-blog-page .blog-page-inner {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.blog-page-pagination .blog-number, .blog-page-pagination .blog-next, .blog-page-pagination .blog-previous {
+		margin-bottom: 5px;
+		display: inline-block;
+	}
+	.section-contact .contact-content {
+		width: 100%;
+	}
+	.section-contact .contact-details {
+		display: block;
+		grid-gap: 40px;
+	}
+	.section-single-blog .single-blog-details {
+		display: block;
+		grid-gap: 30px;
+	}
+	.single-blog-details .single-blog-social-link {
+		padding-bottom: 20px;
+	}
+	.section-single-blog .single-blog-details-content {
+		width: 100%;
+	}
+	.section-single-blog .single-blog-sidebar {
+		width: 100%;
+	}
+	.section-gallery .gallery {
+		display: block;
+		flex-wrap: wrap;
+		grid-gap: 0px;
+	}
+	.section-gallery .gallery-inner .gallery-image {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.section-tabs .tabs-inner .tabs .tabs-list {
+		display: block;
+	}
+	.section-tabs .tabs-inner .tabs .tabs-list li {
+		width: 97%;
+		margin-top: 5px !important;
+	}
+}
+
+
+@media all and (min-width: 960px) {
+	.menu {
+		align-items: flex-start;
+		flex-wrap: nowrap;
+		background: none;
+		margin-bottom: 0;
+	}
+	.logo {
+		order: 0;
+	}
+	.item {
+		order: 1;
+		position: relative;
+		display: block;
+		width: auto;
+	}
+	.button {
+		order: 2;
+	}
+	.submenu-active .submenu {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 68px;
+		background: #111;
+		width: max-content;
+	}
+	.toggle {
+		display: none;
+	}
+	.submenu-active {
+		border-radius: 0;
+	}
+}

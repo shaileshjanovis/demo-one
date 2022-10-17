@@ -1,0 +1,250 @@
+<html>
+	<head>
+		<title>Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="mystyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<head>
+	<body>
+		<div class="container">
+			<div class="wrapper">
+				<section class="blog-section">
+					<div class="blog-heading">Blog Section</div>
+					<div class="blog-inner">
+						<div class="blog-details">
+							<div class="blog-details-inner">
+								<a href="#"><img class="blog-img" src="img/n1.jpg"></a>
+								<a class="blog-link" href="#">Blog Title</a>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							</div>
+						</div>
+						<div class="blog-details">
+							<div class="blog-details-inner">
+								<a href="#"><img class="blog-img" src="img/n1.jpg"></a>
+								<a class="blog-link" href="#">Blog Title</a>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							</div>
+						</div>
+						<div class="blog-details">
+							<div class="blog-details-inner">
+								<a href="#"><img class="blog-img" src="img/n1.jpg"></a>
+								<a class="blog-link" href="#">Blog Title</a>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section class="faq-section">
+					<div class="faq-heading">FAQ Section</div>
+					<div class="faq-inner">
+						<div class="faq">
+							<li class="q"><i class="ion-chevron-right"></i>What does the term "Full-Tang" mean?</li>
+							<li class="a">"Full-Tang" refers to knives where the blade goes all the way down through the handle to the end of the grip.</li>	
+							<li class="q"><i class="ion-chevron-right"></i>What is a bolster, and what benefits does it provide?</li>
+							<li class="a">A knife bolster is the thick section between the handle and the blade, and it strengthens the knife, and gives better balance and control. However, there is much disagreement on whether or not it is necessary.</li>
+							<li class="q"><i class="ion-chevron-right"></i>What are the differences between forged and laser-cut stamped knives?</li>
+							<li class="a">Forged knives are stronger and retain their edge longer than stamped knives, which have more flexible blades. In the case of Wusthof, their forged knives go through 40 different steps in their factory, where the laser-cut knives go through 14 steps. Also, their forged knives include a bolster, which balances the knife and protects fingers, although bolsters can also be added to laser-cut knives. Laser-cut stamped knives can be of excellent quality too, however, and they are more economically priced.</li>	
+							<li class="q"><i class="ion-chevron-right"></i>How should I wash my knives?</li>
+							<li class="a">Always wash them by hand with hot, soapy water. Never drop them in with a sinkful of dirty dishes, or run them through a dishwasher, which will not only bang them together, but damage the blade through excessive heating.</li>
+							<li class="q"><i class="ion-chevron-right"></i>Do I need to spend a lot of money for knives?</li>
+							<li class="a">The more you can spend, the better, but there are some less expensive options, such as Victorinox, which also make Swiss Army Knives. The blades are very sharp, and well-made for the price.</li>
+						</div>
+					</div>
+					<script>
+					var action="click";
+					var speed="500";
+					$(document).ready(function() {
+						$('li.q').on(action, function() { 
+							$(this).next()
+							.slideToggle(speed)
+							.siblings('li.a')
+							.slideUp();
+						});
+					});
+					</script>
+				</section>
+				
+				<section class="image-center-text">
+					<div class="image-center">
+						<img src="img/n2.jpg" class="custom-image">
+						<div class="image-text">
+							<h2 class="image-heading">What is Lorem Ipsum?</h2>
+							<p class="image-peregraph">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+						</div>
+					</div>
+				</section>
+				
+				
+				<section class="section-testimonials">
+					<div class="testimonials-inner">
+						<div class="testimonials">
+						
+							<div>
+								<div class="testimonial">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									<img src="img/images.png" alt="image-1" />
+									<div class="user">
+										<h3>User Name</h3>
+										<p class="identify">Data Scientist</p>
+									</div>
+								</div>
+							</div>
+						 
+							<div>
+								<div class="testimonial">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									<img src="img/images.png" alt="image-2" />
+									<div class="user">
+										<h3>User Name</h3>
+										<p class="identify">Web Designer</p>
+									</div>
+								</div>
+							</div>
+								
+							<div>
+								<div class="testimonial">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									<img src="img/images.png" alt="image-3" />
+									<div class="user">
+										<h3>User Name</h3>
+										<p class="identify">Ui Designer</p>
+									</div>
+								</div>
+							</div>
+						 
+							<div>
+								<div class="testimonial">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									<img src="img/images.png" alt="image-4" />
+									<div class="user">
+										<h3>User Name</h3>
+										<p class="identify">Illustrator</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<script>
+					$(document).ready(function () {
+						$('.testimonials').slick({
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							autoplay: true,
+							autoplaySpeed: 3000,
+							infinite: false,
+							dots: true
+						});
+					});
+					</script>
+				</section>
+				
+				<section class="section-products">
+					<div class="products-inner">
+						<div class="products-heading">Product Section</div>
+						<div class="products">
+							
+							<div class="product-details">
+								<div class="product-details-inner">
+									<a href="#"><img src="img/n3.jpg" class="product-img"></a>
+									<a class="product-link" href="#">Product 1</a>
+									<div class="product-price">RS : 200 </div>
+									<a href="#" class="add-to-cart-btn">Add To Cart</a>
+								</div>
+							</div>
+							
+							<div class="product-details">
+								<div class="product-details-inner">
+									<a href="#"><img src="img/n3.jpg" class="product-img"></a>
+									<a class="product-link" href="#">Product 1</a>
+									<div class="product-price">RS : 200 </div>
+									<a href="#" class="add-to-cart-btn">Add To Cart</a>
+								</div>
+							</div>
+							
+							<div class="product-details">
+								<div class="product-details-inner">
+									<a href="#"><img src="img/n3.jpg" class="product-img"></a>
+									<a class="product-link" href="#">Product 1</a>
+									<div class="product-price">RS : 200 </div>
+									<a href="#" class="add-to-cart-btn">Add To Cart</a>
+								</div>
+							</div>
+							
+							<div class="product-details">
+								<div class="product-details-inner">
+									<a href="#"><img src="img/n3.jpg" class="product-img"></a>
+									<a class="product-link" href="#">Product 1</a>
+									<div class="product-price">RS : 200 </div>
+									<a href="#" class="add-to-cart-btn">Add To Cart</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about-section">
+					<div class="about-inner">
+						<div class="about-heading">About Section</div>
+						<div class="about-details">
+							<div class="about-content">
+								<img src="img/1.jpg" class="about-image-one">
+							</div>
+							<div class="about-content">
+								<div class="about-title">Best Medical Care For Yourself and Your Family</div>
+								<div class="description">
+									<p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+									<p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="services-section">
+					<div class="services-inner">
+						<div class="services-heading">Services Section</div>
+						<div class="services-details">
+							<div class="services">
+								<div class="icon"><i class="fa fa-paragraph"></i></div>
+								<h4 class="title">Title One</h4>
+								<p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#" class="services-link">More</a>
+							</div>
+							<div class="services">
+								<div class="icon"><i class="fa fa-archive"></i></div>
+								<h4 class="title">Title Two</h4>
+								<p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#" class="services-link">More</a>
+							</div>
+							<div class="services">
+								<div class="icon"><i class="fa fa-industry"></i></div>
+								<h4 class="title">Title Three</h4>
+								<p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#" class="services-link">More</a>
+							</div>
+							<div class="services">
+								<div class="icon"><i class="fa fa-university"></i></div>
+								<h4 class="title">Title Four</h4>
+								<p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#" class="services-link">More</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				
+			</div>
+		</div>
+	</body>
+</html>
